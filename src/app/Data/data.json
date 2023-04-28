@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "name": "Eslam Mohamed Badr",
+      "age": "25",
+      "email": "eslambadr@gmail.com",
+      "address": "Suez",
+      "phone": "01116528587",
+      "id": 1
+    },
+    {
+      "name": "Abdelrahman Emad",
+      "age": "26",
+      "email": "abdoemad@gmail.com",
+      "address": "Cairo",
+      "phone": "0102030405",
+      "id": 2
+    },
+    {
+      "name": "Karim Alaa",
+      "age": "24",
+      "email": "karimalaa@gmail.com",
+      "address": "Ismailia",
+      "phone": "01111111111",
+      "id": 3
+    },
+    {
+      "name": "Ethar Abdelrahman",
+      "age": "24",
+      "email": "ethaarabdo123@gmail.com",
+      "address": "Suez, Egypt",
+      "phone": "01020304050",
+      "id": 4
+    }
+  ]
+}

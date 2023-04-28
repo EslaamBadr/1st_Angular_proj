@@ -1,0 +1,24 @@
+.details{
+    width: 70%;
+    /* text-align: center; */
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.key, .value{
+    display: inline-block;
+}
+.key{
+    margin-left: 25%;
+    font-style: italic;
+}
+.value{
+    margin-left:10%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+}
+.details img{
+    text-align: center;
+    margin-left: 45%;
+}

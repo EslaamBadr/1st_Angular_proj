@@ -1,0 +1,17 @@
+<h1>Users</h1>
+<table class="table">
+    <thead>
+        <td id="_id">ID</td>
+        <td id="name">Name</td>
+        <td id="details">Details</td>
+        <td id="details">Update</td>
+        <td id="details">Delete</td>
+    </thead>
+    <tbody *ngFor="let u of users">
+        <td>{{u.id}}</td>
+        <td>{{u.name}}</td>
+        <td><input type="button" value="details" routerLink="/users/{{u.id}}"></td>
+        <td><input type="button" value="update" routerLink="/update-user/{{u.id}}"></td>
+        <td><input type="button" value="delete" (click)="delete(u.id)" routerLink="/users"></td>
+    </tbody>
+</table>

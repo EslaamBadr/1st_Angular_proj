@@ -1,0 +1,20 @@
+.table{
+    width: 70%;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+tbody td{
+    color: blueviolet;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#_id{
+    width: 15%;
+}
+#name{
+    width: 40%;
+}
+#details{
+    width: 15%;
+}
